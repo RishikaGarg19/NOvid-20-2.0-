@@ -16,9 +16,9 @@ var firebaseConfig =
 //Reference to Users table/collection
 
 var UsersRef=firebase.database().ref('Users');
-
+  
 document.getElementById('reg').addEventListener('submit', submitForm);
-
+  
 //Submit form
 function submitForm(e)
 {  e.preventDefault();
