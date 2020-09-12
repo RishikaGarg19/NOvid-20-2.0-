@@ -1,4 +1,4 @@
-# NOvid-20-2.0-
+# NOvid-20-2.0
 
 Website link :- https://novid-20.netlify.app/
 
