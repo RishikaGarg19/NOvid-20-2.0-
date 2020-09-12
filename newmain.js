@@ -36,7 +36,7 @@ function submitForm(e)
 
   //Display message when done
     document.querySelector('.alert').style.display='block';
-
+  
   //Hide alert after 5 seconds
     setTimeout(function()
     {  document.querySelector('.alert').style.display='none';
@@ -46,7 +46,7 @@ function submitForm(e)
 function getValue(id)
 {  return document.getElementById(id).value;
 }
-
+  
 function saveData(name, username, email, phone, pass, location)
 {  var newUserRef = UsersRef.push();
    newUserRef.set(
