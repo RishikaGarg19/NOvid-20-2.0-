@@ -34,13 +34,13 @@ function submitForm(e)
   //Pass variable values to database
     saveData(name, username, email, phone, pass, location);
 
-  //Display message when done
+/*  //Display message when done
     document.querySelector('.alert').style.display='block';
   
   //Hide alert after 5 seconds
     setTimeout(function()
     {  document.querySelector('.alert').style.display='none';
-    }, 5000);
+    }, 5000); */
 }
 
 function getValue(id)
