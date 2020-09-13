@@ -2,10 +2,26 @@
 <html lang="en">
 <HEAD>
     <STYLE type="text/css">
-        .alert 
-        {
-            display: none
-        }
+        .alert {
+  padding: 20px;
+  background-color: #0040ff;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
     </STYLE>
 
     <SCRIPT language="JavaScript">
@@ -26,7 +42,7 @@
         function empty()
         {   if (document.f1.name.value == "")
             alert('Please write your name!')
-            else if (document.f1.userid.value == "")
+            else if (document.f1.username.value == "")
                 alert('Please write a username!')
             else if (document.f1.email.value == "")
                 alert('Please write your e-mail address!')
@@ -40,8 +56,8 @@
                 alert('Please re-enter your password!')
             else if (document.f1.pass.value != document.f1.cpass.value)
                 alert('Passwords do not match !')
-             //else
-                //alert("You have been registered!");
+             else
+                alert("You have been registered!");
         }
     </SCRIPT>
 
