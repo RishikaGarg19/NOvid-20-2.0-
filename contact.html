@@ -2,27 +2,10 @@
 <html lang="en">
 <HEAD>
     <STYLE type="text/css">
-        .alert {
-            display: none;
-  padding: 20px;
-  background-color: #0040ff;
-  color: white;
-}
-
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.closebtn:hover {
-  color: black;
-}
+        .alert 
+        {
+            display: none
+        }
     </STYLE>
 
     <SCRIPT language="JavaScript">
@@ -49,12 +32,12 @@
                 alert('Please write your e-mail address!')
             else if (document.f1.phone.value == "")
                 alert('Please write your phone number!')
-            else if (document.f1.location.value == "")
-                alert('Please enter your location!')
             else if (document.f1.pass.value == "")
                 alert('Please create a password!')
             else if (document.f1.cpass.value == "")
                 alert('Please re-enter your password!')
+            else if (document.f1.location.value == "")
+                alert('Please enter your location!')
             else if (document.f1.pass.value != document.f1.cpass.value)
                 alert('Passwords do not match !')
              else
